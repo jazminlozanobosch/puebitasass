@@ -1,0 +1,35 @@
+/*variables*/
+/*reset*/
+/*html index con nesting*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+div.Padre {
+  background-color: #f5f8f7;
+  margin: 1 rem; }
+  div.Padre header .encabezado {
+    background-color: #d6d6cf; }
+    div.Padre header .encabezado nav .encabezadonav__nav {
+      background-color: bisque;
+      align-items: flex-end; }
+      div.Padre header .encabezado nav .encabezadonav__nav ul li {
+        border-bottom: black solid 1px;
+        text-align: center;
+        border: black 2px;
+        font-size: 5rem;
+        list-style: none;
+        display: flex;
+        align-items: flex-end; }
+
+main.main1 {
+  background-color: #f7e7f7; }
+  main.main1 div .main__hijotexto h1 {
+    font-size: 3rem;
+    color: black; }
+  main.main1 div .main__hijotexto h2 {
+    font-size: 2rem;
+    color: black; }
+  main.main1 div .main__hijotexto p {
+    color: black; }

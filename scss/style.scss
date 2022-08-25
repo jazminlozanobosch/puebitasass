@@ -1,0 +1,88 @@
+/*variables*/
+@import "utilities/variables";
+
+/*reset*/
+/*html index con nesting*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ div .Padre {
+
+        background-color: rgb(245, 248, 247);
+        margin: 1 rem;
+        
+    
+        header .encabezado {
+                background-color: $color-secundario;
+              
+             nav .encabezadonav__nav{
+                background-color: $color-secundario;
+                align-items: flex-end;
+    
+                ul li {
+                 background-color: $color-secundario;
+                  border-bottom: black solid 1px;
+                  text-align: center;
+                  border: black 2px;
+                  font-size: 5rem;
+                  list-style: none;
+                  display:flex;
+                  align-items: flex-end;
+                }
+             }
+    
+ }
+    
+    
+    
+    main.main1{
+        background-color: rgb(247, 231, 247);
+        display: grid;
+        height: 100%;
+        width: 60%;
+        grid-template-columns: 50% 50%;
+
+        div .main__hijotexto{
+             
+            h1{
+                font-size: 3rem;
+                color: black;
+    
+            }
+    
+            h2{
+                font-size: 2rem;
+                color: black;
+    
+            }
+            p{
+                color: black;
+                text-align: center;
+    
+            }
+
+           div.main__hijoimagen{
+
+           }
+    
+        }
+    }
+
+footer.footerdefinitivo{
+
+    div{
+    background-color: $color-secundario;
+
+         h3{
+        font-size: 3rem;
+        text-align: center;
+
+           }
+
+   }
+}
